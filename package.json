@@ -1,6 +1,6 @@
 {
   "name": "@bigmistqke/solid-whenever",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "reactive utilities to ease working with nullable signals",
   "license": "MIT",
   "author": "bigmistqke",
