@@ -141,6 +141,10 @@ whenEffect(user, u => {
 })
 ````
 
+### Solid wrappers
+
+Utilities wrapping solid's effects.
+
 #### `whenRenderEffect`
 
 Like `whenEffect` but uses `createRenderEffect` internally. Useful for DOM manipulations.
