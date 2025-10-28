@@ -101,7 +101,7 @@ const status = createMemo(
 
 Returns a function that checks if all provided values are truthy and returns them as a tuple. Designed to be composed with `when`.
 
-````tsx
+```tsx
 import { when, every } from 'solid-whenever'
 import { createSignal, createMemo } from 'solid-js'
 
@@ -122,6 +122,7 @@ createEffect(
     console.log(`${user.name} has ${permissions.role} role with ${settings.theme} theme`)
   })
 )
+```
 
 ### Solid wrappers
 
@@ -139,11 +140,7 @@ whenEffect(user, u => {
   console.log(`User ${u.name} logged in`)
   // Setup user-specific listeners, etc.
 })
-````
-
-### Solid wrappers
-
-Utilities wrapping solid's effects.
+```
 
 #### `whenRenderEffect`
 
